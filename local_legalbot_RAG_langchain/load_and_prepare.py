@@ -92,6 +92,3 @@ def clear_database():
     if os.path.exists(CHROMA_PATH):
         shutil.rmtree(CHROMA_PATH)
 
-
-if __name__ == "__main__":
-    main()
